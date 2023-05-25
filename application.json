@@ -24,6 +24,22 @@
       "showSignIn": false
     }
   },
+  "publishedApplicationDetail": {
+    "appPositioning": {
+      "type": "AUTO"
+    },
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": false
+    }
+  },
   "color": "#F1DEFF",
   "icon": "book",
   "unpublishedCustomJSLibs": [],
