@@ -3,6 +3,10 @@
     {
       "id": "Search",
       "isDefault": true
+    },
+    {
+      "id": "Profile",
+      "isDefault": false
     }
   ],
   "viewMode": false,
