@@ -9,7 +9,7 @@
           "mobileBottomRow": 1435.9999999999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1042,
+          "bottomRow": 1006,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,7 +33,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 10,
+              "bottomRow": 6.4,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
                   "widgetName": "Canvas1Copy",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 100,
+                  "bottomRow": 64,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -143,7 +143,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 8,
+                      "bottomRow": 4.4,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -166,14 +166,11 @@
                         },
                         {
                           "key": "textColor"
-                        },
-                        {
-                          "key": "text"
                         }
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Search results ({{listTerms.listData.length}})",
+                      "text": "Search results",
                       "key": "2d37a2qtyr",
                       "isDeprecated": false,
                       "rightColumn": 64,
@@ -258,7 +255,7 @@
               "widthInPercentage": 0.9845559845559846,
               "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 11.2,
+              "topRow": 7.6000000000000005,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -380,7 +377,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 104.2,
+              "bottomRow": 100.6,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
@@ -853,8 +850,8 @@
                 "popup",
                 "notification"
               ],
-              "topRow": 105.4,
-              "bottomRow": 186.2,
+              "topRow": 101.8,
+              "bottomRow": 182.59999999999997,
               "parentRowSpace": 10,
               "type": "MODAL_WIDGET",
               "hideCard": false,
