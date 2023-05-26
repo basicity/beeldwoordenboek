@@ -489,7 +489,7 @@
               "isDisabled": "{{!inputSearch.isValid || selectCategories.selectedOptionValues.length == 0}}",
               "key": "exnp6dk80w",
               "isDeprecated": false,
-              "rightColumn": 5.622254758418741,
+              "rightColumn": 11.531531531531531,
               "isDefaultClickDisabled": true,
               "iconName": "search",
               "widgetId": "m5x26oha7z",
