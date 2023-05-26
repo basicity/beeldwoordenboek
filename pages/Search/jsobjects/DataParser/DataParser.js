@@ -8,9 +8,5 @@ export default {
 			obj['value'] = item.id;
 			return obj;		
 		})
-	},
-	async myFun2 () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
 	}
 }

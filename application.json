@@ -7,6 +7,10 @@
     {
       "id": "Profile",
       "isDefault": false
+    },
+    {
+      "id": "SearchResults",
+      "isDefault": false
     }
   ],
   "viewMode": false,
