@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "DataParser",
+    "pageId": "SearchResults Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "SearchResults Copy_DataParser",
+  "deleted": false,
+  "gitSyncId": "646f5c66302bd23a55883ab7_64709c234143bd183b8a10c8"
+}
