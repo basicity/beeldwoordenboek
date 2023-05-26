@@ -1,10 +1,8 @@
 export default {
 	myVar1: [],
 	myVar2: {},
-	myFun1 () {
-		
-		//	write code here
-		//	this.myVar1 = [1,2,3]
+	clear(){
+		clearStore();
 	},
 	async saveUserprofile () {
 		const checkUser = await CheckIfUserExists.run()
@@ -15,6 +13,7 @@ export default {
 			showAlert("Created a new user", "success");
 		}else{
 			// update the existing user
+			storeValue("user", checkUser.results[0]);
 			const user = await UpdateExistingUser.run();
 			storeValue("user",user);
 			showAlert("Updated your profile", "success");

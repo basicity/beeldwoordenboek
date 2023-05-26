@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "SaveUser",
+    "name": "Usermanagement",
     "pageId": "Profile",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -18,7 +18,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Profile_SaveUser",
+  "id": "Profile_Usermanagement",
   "deleted": false,
   "gitSyncId": "646f5c66302bd23a55883ab7_647028ae7ac7070998885650"
 }

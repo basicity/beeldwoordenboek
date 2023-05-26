@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "saveUserprofile",
-    "fullyQualifiedName": "SaveUser.saveUserprofile",
+    "fullyQualifiedName": "Usermanagement.saveUserprofile",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Profile",
-    "collectionId": "Profile_SaveUser",
+    "collectionId": "Profile_Usermanagement",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Profile_SaveUser.saveUserprofile",
+  "id": "Profile_Usermanagement.saveUserprofile",
   "deleted": false,
   "gitSyncId": "646f5c66302bd23a55883ab7_647028ae7ac707099888564c"
 }

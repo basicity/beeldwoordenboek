@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "SaveUser.myFun1",
+    "name": "clear",
+    "fullyQualifiedName": "Usermanagement.clear",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,17 +14,16 @@
       "userPermissions": []
     },
     "pageId": "Profile",
-    "collectionId": "Profile_SaveUser",
+    "collectionId": "Profile_Usermanagement",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -38,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Profile_SaveUser.myFun1",
+  "id": "Profile_Usermanagement.clear",
   "deleted": false,
-  "gitSyncId": "646f5c66302bd23a55883ab7_647028ae7ac707099888564d"
+  "gitSyncId": "646f5c66302bd23a55883ab7_647033204143bd183b89fff1"
 }

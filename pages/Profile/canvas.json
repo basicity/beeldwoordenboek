@@ -199,6 +199,9 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "defaultText"
                 }
               ],
               "labelStyle": "",
@@ -247,7 +250,7 @@
               "mobileLeftColumn": 0,
               "maxDynamicHeight": 9000,
               "iconAlign": "left",
-              "defaultText": "",
+              "defaultText": "{{appsmith.store.user ? appsmith.store.user.Name : '' }}",
               "minDynamicHeight": 4
             },
             {
@@ -258,7 +261,7 @@
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.user ? appsmith.store.user.InterfaceLanguage.value : '' ))(selectLanguage.options, selectLanguage.serverSideFiltering) }}",
               "animateLoading": true,
               "leftColumn": 0,
               "dynamicBindingPathList": [
@@ -267,6 +270,9 @@
                 },
                 {
                   "key": "borderRadius"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "labelTooltip": "",
@@ -318,7 +324,7 @@
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.user ? appsmith.store.user.Sector[0].value : '' ))(selectSector.options, selectSector.serverSideFiltering) }}",
               "animateLoading": true,
               "leftColumn": 0,
               "dynamicBindingPathList": [
@@ -330,6 +336,9 @@
                 },
                 {
                   "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "options": "{{DataParser.getSectors()}}",
@@ -390,7 +399,7 @@
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
-              "defaultOptionValue": "",
+              "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.user ? appsmith.store.user.Company[0].id : '' ))(selectOrganisation.options, selectOrganisation.serverSideFiltering) }}",
               "animateLoading": true,
               "leftColumn": 0,
               "dynamicBindingPathList": [
@@ -402,6 +411,9 @@
                 },
                 {
                   "key": "options"
+                },
+                {
+                  "key": "defaultOptionValue"
                 }
               ],
               "options": "{{DataParser.getOrganisations()}}",
@@ -449,7 +461,7 @@
               "boxShadow": "none",
               "mobileBottomRow": 40.800000000000004,
               "widgetName": "actionSave",
-              "onClick": "{{SaveUser.saveUserprofile()}}",
+              "onClick": "{{Usermanagement.saveUserprofile()}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "dynamicPropertyPathList": [
                 {
