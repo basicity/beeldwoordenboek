@@ -9,7 +9,7 @@
           "mobileBottomRow": 870,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 428.0000000000001,
+          "bottomRow": 870,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -449,10 +449,14 @@
               "boxShadow": "none",
               "mobileBottomRow": 40.800000000000004,
               "widgetName": "actionSave",
+              "onClick": "{{SaveUser.saveUserprofile()}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "dynamicPropertyPathList": [
                 {
                   "key": "isDisabled"
+                },
+                {
+                  "key": "onClick"
                 }
               ],
               "displayName": "Button",
@@ -469,7 +473,11 @@
               "mobileRightColumn": 22.06896551724138,
               "animateLoading": true,
               "parentColumnSpace": 9.75,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {

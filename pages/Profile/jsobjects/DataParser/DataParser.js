@@ -4,7 +4,7 @@ export default {
 	getSectors: () => {	
 		return GetSectors.data.results.map(item => {
 			const obj = Object.assign({}, item);
-			obj['label'] = item.Name;
+			obj['label'] = `${item.Icon} ${item.Name}`;
 			obj['value'] = item.Name;
 			return obj;		
 		})
