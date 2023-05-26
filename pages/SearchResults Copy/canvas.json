@@ -9,7 +9,7 @@
           "mobileBottomRow": 1435.9999999999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 412,
+          "bottomRow": 1042,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -110,7 +110,7 @@
                       "isDisabled": false,
                       "key": "kh4zo7bnlr",
                       "isDeprecated": false,
-                      "rightColumn": 16.271186440677965,
+                      "rightColumn": 15.609756097560975,
                       "isDefaultClickDisabled": true,
                       "dynamicHeight": "FIXED",
                       "iconName": "arrow-left",
@@ -153,7 +153,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 20.4375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 16.271186440677965,
+                      "leftColumn": 15.609756097560975,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -255,7 +255,8 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
-              "isVisibleDownload": true,
+              "widthInPercentage": 0.9845559845559846,
+              "isVisibleDownload": false,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
               "topRow": 11.2,
               "isSortable": true,
@@ -280,9 +281,6 @@
                 },
                 {
                   "key": "primaryColumns.order.computedValue"
-                },
-                {
-                  "key": "primaryColumns.Name.computedValue"
                 },
                 {
                   "key": "primaryColumns.Dutch.computedValue"
@@ -316,6 +314,9 @@
                 },
                 {
                   "key": "primaryColumns.Audio.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Name.computedValue"
                 }
               ],
               "needsHeightForContent": true,
@@ -353,7 +354,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1685102157352,
+              "columnUpdatedAt": 1685103009068,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -362,9 +363,9 @@
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
+                "Images",
                 "id",
                 "order",
-                "Images",
                 "Name",
                 "Dutch",
                 "French",
@@ -379,13 +380,14 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 41.2,
+              "bottomRow": 104.2,
               "columnWidthMap": {
                 "task": 245,
                 "step": 70,
                 "status": 85,
-                "Images": 90,
-                "Name": 392
+                "Images": 176,
+                "Name": 319,
+                "Category": 276
               },
               "parentRowSpace": 10,
               "hideCard": false,
@@ -455,7 +457,7 @@
                   "cellBackground": ""
                 },
                 "Name": {
-                  "allowCellWrapping": false,
+                  "allowCellWrapping": true,
                   "allowSameOptionsInNewRow": true,
                   "index": 2,
                   "width": 150,
@@ -479,10 +481,12 @@
                   "label": "Name",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow['Name']))}}",
                   "sticky": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "customAlias": "",
+                  "menuItemsSource": "STATIC"
                 },
                 "Dutch": {
                   "allowCellWrapping": false,
@@ -660,12 +664,13 @@
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Images\"][0].url))}}",
-                  "sticky": "",
+                  "sticky": "left",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "imageSize": "LARGE"
                 },
                 "Synonyms": {
-                  "allowCellWrapping": false,
+                  "allowCellWrapping": true,
                   "allowSameOptionsInNewRow": true,
                   "index": 9,
                   "width": 150,
@@ -689,13 +694,13 @@
                   "label": "Synonyms",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Synonyms\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Synonyms\"].map(s => s.value).join(' / ')))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
                 },
                 "Category": {
-                  "allowCellWrapping": false,
+                  "allowCellWrapping": true,
                   "allowSameOptionsInNewRow": true,
                   "index": 10,
                   "width": 150,
@@ -710,7 +715,7 @@
                   "fontStyle": "",
                   "enableFilter": true,
                   "enableSort": true,
-                  "isVisible": false,
+                  "isVisible": true,
                   "isDisabled": false,
                   "isCellEditable": false,
                   "isEditable": false,
@@ -719,7 +724,7 @@
                   "label": "Category",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Category\"]))}}",
+                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Category\"].map(c => c.value).join(' / ')))}}",
                   "sticky": "",
                   "validation": {},
                   "cellBackground": ""
@@ -848,8 +853,8 @@
                 "popup",
                 "notification"
               ],
-              "topRow": 42.4,
-              "bottomRow": 123.20000000000002,
+              "topRow": 105.4,
+              "bottomRow": 186.2,
               "parentRowSpace": 10,
               "type": "MODAL_WIDGET",
               "hideCard": false,
