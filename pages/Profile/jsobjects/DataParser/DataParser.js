@@ -4,9 +4,17 @@ export default {
 	getSectors: () => {	
 		return GetSectors.data.results.map(item => {
 			const obj = Object.assign({}, item);
-      obj['label'] = item.Name;
+			obj['label'] = item.Name;
 			obj['value'] = item.Name;
-      return obj;		
+			return obj;		
+		})
+	},
+	getOrganisations: () => {	
+		return GetCompaniesBySector.data.results.map(item => {
+			const obj = Object.assign({}, item);
+			obj['label'] = `${item.Name} (${item.City})`;
+			obj['value'] = item.id;
+			return obj;		
 		})
 	},
 	async myFun2 () {
