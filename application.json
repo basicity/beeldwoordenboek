@@ -11,10 +11,6 @@
     {
       "id": "SearchResults",
       "isDefault": false
-    },
-    {
-      "id": "TermDetail",
-      "isDefault": false
     }
   ],
   "viewMode": false,
