@@ -24,7 +24,6 @@
       "isAsync": true
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -40,5 +39,5 @@
   },
   "id": "Search_DataParser.myFun2",
   "deleted": false,
-  "gitSyncId": "646f5c66302bd23a55883ab7_646f67d95b26376ee3409d62"
+  "gitSyncId": "646f5c66302bd23a55883ab7_647054a04143bd183b8a0300"
 }

@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "DataParser.myFun1",
+    "name": "getCategories",
+    "fullyQualifiedName": "DataParser.getCategories",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -24,7 +24,6 @@
       "isAsync": false
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -38,7 +37,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Search_DataParser.myFun1",
+  "id": "Search_DataParser.getCategories",
   "deleted": false,
-  "gitSyncId": "646f5c66302bd23a55883ab7_646f67d95b26376ee3409d63"
+  "gitSyncId": "646f5c66302bd23a55883ab7_647054a04143bd183b8a0301"
 }
