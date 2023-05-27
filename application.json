@@ -15,6 +15,10 @@
     {
       "id": "SearchResults",
       "isDefault": false
+    },
+    {
+      "id": "SearchDetails",
+      "isDefault": false
     }
   ],
   "viewMode": false,

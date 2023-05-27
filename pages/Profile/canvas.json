@@ -9,7 +9,7 @@
           "mobileBottomRow": 870,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 428.0000000000001,
+          "bottomRow": 424.0000000000001,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -33,7 +33,7 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 6.4,
+              "bottomRow": 6,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 64,
+                  "bottomRow": 60,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -82,7 +82,7 @@
                         "label"
                       ],
                       "topRow": 0,
-                      "bottomRow": 4.4,
+                      "bottomRow": 4,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -118,7 +118,7 @@
                       "widgetId": "xb23h8an7y",
                       "minWidth": 450,
                       "isVisible": true,
-                      "fontStyle": "BOLD",
+                      "fontStyle": "",
                       "textColor": "{{appsmith.theme.colors.backgroundColor}}",
                       "version": 1,
                       "parentId": "7y0wmberf2",
@@ -129,7 +129,7 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 0,
                       "maxDynamicHeight": 9000,
-                      "fontSize": "1.875rem",
+                      "fontSize": "1.25rem",
                       "alignment": "start",
                       "minDynamicHeight": 4
                     }
@@ -187,7 +187,7 @@
             {
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-              "topRow": 7.6000000000000005,
+              "topRow": 7.2,
               "labelWidth": 5,
               "type": "INPUT_WIDGET_V2",
               "animateLoading": true,
@@ -227,7 +227,7 @@
                 "number",
                 "textarea"
               ],
-              "bottomRow": 14.200000000000003,
+              "bottomRow": 13.800000000000002,
               "parentRowSpace": 10,
               "autoFocus": false,
               "hideCard": false,
@@ -257,7 +257,7 @@
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
               "labelText": "Select your primary language",
-              "topRow": 15.400000000000002,
+              "topRow": 15.000000000000004,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
@@ -294,7 +294,7 @@
               "searchTags": [
                 "dropdown"
               ],
-              "bottomRow": 22.000000000000004,
+              "bottomRow": 21.600000000000005,
               "parentRowSpace": 10,
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -320,7 +320,7 @@
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
               "labelText": "Select your sector",
-              "topRow": 23.200000000000003,
+              "topRow": 22.800000000000004,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
@@ -364,7 +364,7 @@
               "searchTags": [
                 "dropdown"
               ],
-              "bottomRow": 29.800000000000004,
+              "bottomRow": 29.400000000000006,
               "parentRowSpace": 10,
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -395,7 +395,7 @@
               "boxShadow": "none",
               "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
               "labelText": "Select your organisation",
-              "topRow": 31.000000000000004,
+              "topRow": 30.600000000000005,
               "labelWidth": 5,
               "type": "SELECT_WIDGET",
               "serverSideFiltering": false,
@@ -434,7 +434,7 @@
               "searchTags": [
                 "dropdown"
               ],
-              "bottomRow": 37.60000000000001,
+              "bottomRow": 37.20000000000001,
               "parentRowSpace": 10,
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -477,8 +477,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 38.80000000000001,
-              "bottomRow": 42.80000000000001,
+              "topRow": 38.40000000000001,
+              "bottomRow": 42.40000000000001,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -506,7 +506,7 @@
               "isDisabled": "{{!inputUsername.isValid || !selectOrganisation.isValid}}",
               "key": "br7m1vc3aq",
               "isDeprecated": false,
-              "rightColumn": 7.885010266940451,
+              "rightColumn": 7.071823204419889,
               "isDefaultClickDisabled": true,
               "iconName": "floppy-disk",
               "widgetId": "voxiumtv76",
