@@ -9,7 +9,7 @@
           "mobileBottomRow": 840,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 759.5937500000002,
+          "bottomRow": 758.0000000000002,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -124,7 +124,7 @@
                 "label"
               ],
               "topRow": 40.60000000000001,
-              "bottomRow": 44.759375000000006,
+              "bottomRow": 44.60000000000001,
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -184,8 +184,8 @@
                 "wave",
                 "player"
               ],
-              "topRow": 45.95937500000001,
-              "bottomRow": 49.95937500000001,
+              "topRow": 45.80000000000001,
+              "bottomRow": 49.80000000000001,
               "parentRowSpace": 10,
               "type": "AUDIO_WIDGET",
               "hideCard": false,
@@ -225,8 +225,8 @@
               "searchTags": [
                 "line"
               ],
-              "topRow": 51.15937500000001,
-              "bottomRow": 55.15937500000001,
+              "topRow": 51.000000000000014,
+              "bottomRow": 55.000000000000014,
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "nc",
@@ -265,8 +265,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 56.359375000000014,
-              "bottomRow": 60.359375000000014,
+              "topRow": 56.20000000000002,
+              "bottomRow": 60.20000000000002,
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -325,8 +325,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 61.55937500000002,
-              "bottomRow": 65.55937500000002,
+              "topRow": 61.40000000000002,
+              "bottomRow": 65.40000000000002,
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -385,8 +385,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 66.75937500000002,
-              "bottomRow": 70.75937500000002,
+              "topRow": 66.60000000000002,
+              "bottomRow": 70.60000000000002,
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 64,
@@ -445,8 +445,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 71.95937500000002,
-              "bottomRow": 75.95937500000002,
+              "topRow": 71.80000000000003,
+              "bottomRow": 75.80000000000003,
               "type": "TEXT_WIDGET",
               "hideCard": false,
               "mobileRightColumn": 64,
