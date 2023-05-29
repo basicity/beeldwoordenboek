@@ -4,8 +4,11 @@ export default {
 	async ChangeFavouritesState () {
 		if(switchFavourite.isSwitchedOn){
 			// add the id to the array
-			appsmith.store.user.Favourites.push(parseInt(idField.text))
+			const user = appsmith.store.user;
+			user.Favourites.push(parseInt(idField.text));
+			storeValue("user",user);
 			console.log('in store');
+			console.log(appsmith.store.user)
 		}else{
 			console.log('switch off');
 			const index = appsmith.store.user.Favourites.indexOf(parseInt(idField.text));
