@@ -9,15 +9,15 @@
       "isDefault": false
     },
     {
-      "id": "SearchResults - old",
-      "isDefault": false
-    },
-    {
       "id": "SearchResults",
       "isDefault": false
     },
     {
       "id": "SearchDetails",
+      "isDefault": false
+    },
+    {
+      "id": "MyList",
       "isDefault": false
     }
   ],
@@ -29,7 +29,7 @@
       "type": "AUTO"
     },
     "navigationSetting": {
-      "showNavbar": true,
+      "showNavbar": false,
       "orientation": "side",
       "navStyle": "sidebar",
       "position": "static",
@@ -65,7 +65,7 @@
   "embedSetting": {
     "height": "720px",
     "width": "1024px",
-    "showNavigationBar": true
+    "showNavigationBar": false
   },
   "collapseInvisibleWidgets": true,
   "isManualUpdate": false,
