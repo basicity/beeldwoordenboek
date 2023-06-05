@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"Favourites\": {{appsmith.store.user.Favourites}}\n}",
+      "body": "{\n\t\"Favourites\": {{appsmith.store.user.Favourites.map(f => f.id)}}\n}",
       "bodyFormData": [],
       "httpMethod": "PATCH",
       "selfReferencingDataPaths": [],
@@ -53,7 +53,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "appsmith.store.user.Favourites",
+      "appsmith.store.user.Favourites.map(f => f.id)",
       "appsmith.store.user.id"
     ],
     "userSetOnLoad": false,

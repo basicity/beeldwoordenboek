@@ -45,7 +45,7 @@
       "type": "AUTO"
     },
     "navigationSetting": {
-      "showNavbar": true,
+      "showNavbar": false,
       "orientation": "side",
       "navStyle": "sidebar",
       "position": "static",
