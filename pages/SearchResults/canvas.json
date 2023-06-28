@@ -9,7 +9,7 @@
           "mobileBottomRow": 1805.9999999999995,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1230,
+          "bottomRow": 982,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -296,7 +296,11 @@
                 "Audio",
                 "Users"
               ],
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "tableData"
+                }
+              ],
               "compactMode": "DEFAULT",
               "displayName": "Table",
               "bottomRow": 98.2,
@@ -811,7 +815,7 @@
           "widgetId": "0",
           "containerStyle": "none",
           "snapRows": 121,
-          "version": 79,
+          "version": 80,
           "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [

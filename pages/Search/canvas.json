@@ -10,7 +10,7 @@
           "mobileBottomRow": 1292,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 1292,
+          "bottomRow": 430,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -288,16 +288,13 @@
                 },
                 {
                   "key": "borderRadius"
-                },
-                {
-                  "key": "validation"
                 }
               ],
               "labelStyle": "",
               "inputType": "TEXT",
               "isDisabled": false,
-              "validation": "{{inputSearch.text.length >= 2}}",
-              "isRequired": true,
+              "validation": "",
+              "isRequired": false,
               "dynamicHeight": "FIXED",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "showStepArrows": false,
@@ -328,7 +325,7 @@
               "isDeprecated": false,
               "rightColumn": 64,
               "widgetId": "bt8801rua8",
-              "errorMessage": "Enter at least 2 characters",
+              "errorMessage": "",
               "minWidth": 450,
               "label": "Search by word (any language)",
               "parentId": "0",
@@ -453,10 +450,10 @@
                 }
               ],
               "text": "Search",
-              "isDisabled": "{{!inputSearch.isValid || selectCategories.selectedOptionValues.length == 0}}",
+              "isDisabled": "{{ selectCategories.selectedOptionValues.length == 0}}",
               "key": "exnp6dk80w",
               "isDeprecated": false,
-              "rightColumn": 11.636363636363637,
+              "rightColumn": 6.925157799819657,
               "isDefaultClickDisabled": true,
               "iconName": "search",
               "widgetId": "m5x26oha7z",
@@ -476,6 +473,91 @@
               "iconAlign": "left",
               "placement": "CENTER",
               "alignment": "start"
+            },
+            {
+              "boxShadow": "none",
+              "iconSVG": "https://appcdn.appsmith.com/static/media/icon.2e5219121218e442100087ea88da5cef.svg",
+              "labelText": "Label",
+              "topRow": 36.4,
+              "labelWidth": 5,
+              "type": "MULTI_SELECT_TREE_WIDGET",
+              "mode": "SHOW_ALL",
+              "defaultOptionValue": [
+                "GREEN"
+              ],
+              "animateLoading": true,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "options": [
+                {
+                  "label": "Blue",
+                  "value": "BLUE",
+                  "children": [
+                    {
+                      "label": "Dark Blue",
+                      "value": "DARK BLUE"
+                    },
+                    {
+                      "label": "Light Blue",
+                      "value": "LIGHT BLUE"
+                    }
+                  ]
+                },
+                {
+                  "label": "Green",
+                  "value": "GREEN"
+                },
+                {
+                  "label": "Red",
+                  "value": "RED"
+                }
+              ],
+              "placeholderText": "Select option(s)",
+              "isDisabled": false,
+              "isRequired": false,
+              "dynamicHeight": "FIXED",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "expandAll": false,
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "alignment": "start",
+              "mobileBottomRow": 62.6,
+              "widgetName": "MultiTreeSelect1",
+              "displayName": "Multi TreeSelect",
+              "searchTags": [
+                "dropdown",
+                "multiselecttree"
+              ],
+              "bottomRow": 43,
+              "parentRowSpace": 10,
+              "hideCard": false,
+              "mobileRightColumn": 64,
+              "parentColumnSpace": 17.328125,
+              "labelPosition": "Top",
+              "key": "sfgukk77jo",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "dru6vl47yy",
+              "minWidth": 450,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "mobileTopRow": 56,
+              "responsiveBehavior": "fill",
+              "mobileLeftColumn": 0,
+              "maxDynamicHeight": 9000,
+              "allowClear": false,
+              "minDynamicHeight": 4
             }
           ],
           "positioning": "vertical",
@@ -486,7 +568,7 @@
           "widgetId": "0",
           "containerStyle": "none",
           "snapRows": 124,
-          "version": 79,
+          "version": 80,
           "mobileTopRow": 0,
           "responsiveBehavior": "fill",
           "flexLayers": [
@@ -534,6 +616,14 @@
               "children": [
                 {
                   "id": "m5x26oha7z",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "dru6vl47yy",
                   "align": "start"
                 }
               ]
