@@ -14,7 +14,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 256,
+        "mobileBottomRow": 263.96875,
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
@@ -51,22 +51,20 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [
-            {"children": [
-                {
-                    "id": "x5p916gncy",
-                    "align": "start"
-                },
-                {
-                    "id": "li96pxlkz6",
-                    "align": "start"
-                }
-            ]},
-            {"children": [{
+        "flexLayers": [{"children": [
+            {
+                "id": "x5p916gncy",
+                "align": "start"
+            },
+            {
+                "id": "li96pxlkz6",
+                "align": "start"
+            },
+            {
                 "id": "3ov3pj0lq3",
                 "align": "start"
-            }]}
-        ]
+            }
+        ]}]
     }],
     "flexVerticalAlignment": "stretch",
     "dynamicHeight": "FIXED",

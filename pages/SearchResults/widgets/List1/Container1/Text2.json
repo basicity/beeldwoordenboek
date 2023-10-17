@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 23.6,
+    "mobileBottomRow": 24.396875,
     "widgetName": "Text2",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 7.2,
-    "bottomRow": 11.2,
+    "topRow": 0,
+    "bottomRow": 4,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,
@@ -25,7 +25,7 @@
         {"key": "borderRadius"},
         {"key": "text"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 45,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{currentItem.Category[0].value}}",
@@ -47,7 +47,7 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 19.6,
+    "mobileTopRow": 20.2375,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

@@ -111,7 +111,7 @@
     "rightColumn": 64,
     "widgetId": "pemkjmbglc",
     "minWidth": 450,
-    "onItemClick": "{{navigateTo('SearchDetails', {}, 'SAME_WINDOW');}}",
+    "onItemClick": "",
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 4.8,
