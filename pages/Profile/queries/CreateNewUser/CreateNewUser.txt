@@ -1,5 +1,5 @@
 {
 	"Name": {{inputUsername.text}},
 	"InterfaceLanguage": {{selectLanguage.selectedOptionValue}},
-	"Company": [{{selectOrganisation.selectedOptionValue}}]
+	"Organisation": [{{selectOrganisation.selectedOptionValue}}]
 }

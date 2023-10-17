@@ -10,10 +10,11 @@ export default {
 		})
 	},
 	getOrganisations: () => {	
-		return GetCompaniesBySector.data.results.map(item => {
+		return GetOrganisationsBySector.data.results.map(item => {
 			const obj = Object.assign({}, item);
 			obj['label'] = `${item.Name} (${item.City})`;
 			obj['value'] = item.id;
+			console.log(obj);
 			return obj;		
 		})
 	},

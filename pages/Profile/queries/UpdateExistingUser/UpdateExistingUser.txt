@@ -1,4 +1,4 @@
 {
 	"InterfaceLanguage": {{selectLanguage.selectedOptionValue}},
-	"Company": [{{selectOrganisation.selectedOptionValue}}]
+	"Organisation": [{{selectOrganisation.selectedOptionValue}}]
 }

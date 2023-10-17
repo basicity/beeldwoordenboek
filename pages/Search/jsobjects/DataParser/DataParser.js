@@ -1,6 +1,4 @@
 export default {
-	myVar1: [],
-	myVar2: {},
 	getCategories: () => {	
 		return GetCategories.data.results.map(item => {
 			const obj = Object.assign({}, item);
