@@ -9,7 +9,7 @@
           "mobileBottomRow": 1230,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 982,
+          "bottomRow": 452,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -41,7 +41,7 @@
             {
               "children": [
                 {
-                  "id": "rl1du47kya",
+                  "id": "pemkjmbglc",
                   "align": "start"
                 }
               ]
@@ -56,8 +56,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "!appsmith.URL.queryParams.keyword ? '-' : appsmith.URL.queryParams.keyword",
-                "appsmith.store.user.Sector[0].value"
+                "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword",
+                "appsmith.URL.queryParams.categories.split(','.map(i => parseInt(i)))"
               ],
               "timeoutInMillisecond": 10000
             }

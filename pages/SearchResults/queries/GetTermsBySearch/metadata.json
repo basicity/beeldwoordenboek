@@ -28,11 +28,11 @@
         },
         {
           "key": "search",
-          "value": "{{!appsmith.URL.queryParams.keyword ? '-' : appsmith.URL.queryParams.keyword}}"
+          "value": "{{!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword}}"
         },
         {
-          "key": "filter__field_1184009__link_row_contains",
-          "value": "{{appsmith.store.user.Sector[0].value}}"
+          "key": "filter__Sector__link_row_has",
+          "value": "{{appsmith.URL.queryParams.categories.split(','.map(i => parseInt(i)))}}"
         }
       ],
       "bodyFormData": [],
@@ -50,6 +50,9 @@
     "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
+        "key": "path"
+      },
+      {
         "key": "queryParameters[1].value"
       },
       {
@@ -60,8 +63,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "!appsmith.URL.queryParams.keyword ? '-' : appsmith.URL.queryParams.keyword",
-      "appsmith.store.user.Sector[0].value"
+      "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword",
+      "appsmith.URL.queryParams.categories.split(','.map(i => parseInt(i)))"
     ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
