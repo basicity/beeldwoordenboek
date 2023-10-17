@@ -14,7 +14,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 262.375,
+        "mobileBottomRow": 256,
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,

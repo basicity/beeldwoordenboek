@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 24.2375,
+    "mobileBottomRow": 23.6,
     "widgetName": "Text2",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -47,7 +47,7 @@
     ],
     "renderMode": "CANVAS",
     "isLoading": false,
-    "mobileTopRow": 20.2375,
+    "mobileTopRow": 19.6,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

@@ -38,7 +38,7 @@
     "parentColumnSpace": 20.71875,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "[\n  {\n    \"label\": \"🇳🇱 Nederlands\",\n    \"value\": \"Nederlands\"\n  },\n  {\n    \"label\": \"🇫🇷 Français\",\n    \"value\": \"Français\"\n  },\n  {\n    \"label\": \"🇬🇧 English\",\n    \"value\": \"English\"\n  },\n\t{\n    \"label\": \"🇩🇪 Deutch\",\n    \"value\": \"Deutch\"\n  }\n]",
+    "sourceData": "[\n  {\n    \"label\": \"🇳🇱 Nederlands\",\n    \"value\": \"Dutch\"\n  },\n  {\n    \"label\": \"🇫🇷 Français\",\n    \"value\": \"French\"\n  },\n  {\n    \"label\": \"🇬🇧 English\",\n    \"value\": \"English\"\n  },\n\t{\n    \"label\": \"🇩🇪 Deutch\",\n    \"value\": \"German\"\n  }\n]",
     "key": "a8b11zj124",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
