@@ -9,7 +9,7 @@
           "mobileBottomRow": 2988,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 2492,
+          "bottomRow": 2412,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -57,19 +57,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  const terms = [];\n  DataParser.page = 1;\n  const data = await GetTermsBySearch.run();\n  data.results.forEach(t => terms.push(t));\n  const pages = Math.ceil(data.count / 100);\n  for (DataParser.page = 2; DataParser.page <= pages; DataParser.page++) {\n    const data = await GetTermsBySearch.run();\n    data.results.forEach(t => terms.push(t));\n  }\n  DataParser.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));\n  console.log(DataParser.filteredTermsByCategory);\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "SearchResults_GetTermsBySearch",
-              "name": "GetTermsBySearch",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "DataParser.page",
-                "appsmith.store.user.Sector[0].ids.database_table_176525",
-                "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword"
+                "async function () {\n  const terms = [];\n  DataParser.page = 1;\n  const data = await GetTermsBySearch.run();\n  data.results.forEach(t => terms.push(t));\n  const pages = Math.ceil(data.count / 100);\n  for (DataParser.page = 2; DataParser.page <= pages; DataParser.page++) {\n    const data = await GetTermsBySearch.run();\n    data.results.forEach(t => terms.push(t));\n  }\n  if (appsmith.URL.queryParams.categories) {\n    DataParser.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));\n  } else {\n    DataParser.filteredTermsByCategory = terms;\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
             }

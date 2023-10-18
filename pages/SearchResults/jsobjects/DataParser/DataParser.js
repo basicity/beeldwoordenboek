@@ -19,7 +19,10 @@ export default {
 			data.results.forEach(t => terms.push(t));
 		}
 		
-		this.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));
-		console.log(this.filteredTermsByCategory)
+		if(appsmith.URL.queryParams.categories){
+			this.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));	
+		}else{
+			this.filteredTermsByCategory = terms;
+		}
 	}
 }

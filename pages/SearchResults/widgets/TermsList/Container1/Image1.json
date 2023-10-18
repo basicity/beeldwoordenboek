@@ -10,7 +10,7 @@
     "bottomRow": 21,
     "type": "IMAGE_WIDGET",
     "hideCard": false,
-    "mobileRightColumn": 58,
+    "mobileRightColumn": 63,
     "animateLoading": true,
     "dynamicTriggerPathList": [],
     "imageShape": "RECTANGLE",
