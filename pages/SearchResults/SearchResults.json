@@ -51,16 +51,25 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "SearchResults_DataParser.filterTermsByCategory",
+              "name": "DataParser.filterTermsByCategory",
+              "collectionId": "SearchResults_DataParser",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const terms = [];\n  DataParser.page = 1;\n  const data = await GetTermsBySearch.run();\n  data.results.forEach(t => terms.push(t));\n  const pages = Math.ceil(data.count / 100);\n  for (DataParser.page = 2; DataParser.page <= pages; DataParser.page++) {\n    const data = await GetTermsBySearch.run();\n    data.results.forEach(t => terms.push(t));\n  }\n  DataParser.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));\n  console.log(DataParser.filteredTermsByCategory);\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "SearchResults_GetTermsBySearch",
               "name": "GetTermsBySearch",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.categories",
-                "TermsList.pageSize",
+                "DataParser.page",
                 "appsmith.store.user.Sector[0].ids.database_table_176525",
-                "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword",
-                "TermsList.pageNo"
+                "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword"
               ],
               "timeoutInMillisecond": 10000
             }

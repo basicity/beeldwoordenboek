@@ -23,7 +23,7 @@
         {"key": "totalRecordsCount"}
     ],
     "leftColumn": 0,
-    "serverSidePagination": true,
+    "serverSidePagination": false,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -76,7 +76,7 @@
     "itemBackgroundColor": "#FFFFFF",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
-    "totalRecordsCount": "{{GetTermsBySearch.data.count}}",
+    "totalRecordsCount": "{{DataParser.filteredTermsByCategory.length}}",
     "tags": [
         "Suggested",
         "Display"
@@ -97,7 +97,7 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "TermsList",
-    "listData": "{{GetTermsBySearch.data.results}}",
+    "listData": "{{DataParser.filteredTermsByCategory}}",
     "displayName": "List",
     "bottomRow": 241.2,
     "parentRowSpace": 10,
