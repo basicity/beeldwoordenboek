@@ -1,6 +1,6 @@
 {
     "boxShadow": "none",
-    "mobileBottomRow": 19.4375,
+    "mobileBottomRow": 23.275,
     "widgetName": "Text1",
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 0,
-    "bottomRow": 4,
+    "bottomRow": 4.6375,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 64,

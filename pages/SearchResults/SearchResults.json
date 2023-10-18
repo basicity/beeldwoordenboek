@@ -6,10 +6,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 2688,
+          "mobileBottomRow": 2988,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 452,
+          "bottomRow": 2492,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -56,8 +56,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "appsmith.URL.queryParams.categories",
+                "TermsList.pageSize",
+                "appsmith.store.user.Sector[0].ids.database_table_176525",
                 "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword",
-                "appsmith.URL.queryParams.categories.split(','.map(i => parseInt(i)))"
+                "TermsList.pageNo"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 33.2,
     "widgetName": "actionSearch",
-    "onClick": "{{navigateTo('SearchResults', {\n  \"keyword\": inputSearch.text,\n  \"categories\": selectCategories.selectedOptionValues\n}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('SearchResults', {\n  \"keyword\": inputSearch.text,\n  \"categories\": selectCategories.selectedOptionLabels\n}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "Button",
