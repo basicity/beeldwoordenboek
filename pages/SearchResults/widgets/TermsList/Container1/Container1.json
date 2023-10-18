@@ -15,7 +15,7 @@
     ],
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-        "mobileBottomRow": 297.5625,
+        "mobileBottomRow": 263.96875,
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
@@ -78,7 +78,7 @@
     "disabledWidgetFeatures": ["dynamicHeight"],
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileWidthInPercentage": 0.9536231884057971,
-    "mobileBottomRow": 26,
+    "mobileBottomRow": 28,
     "widgetName": "Container1",
     "disallowCopy": true,
     "displayName": "Container",

@@ -3,6 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 14,
     "widgetName": "Image1",
+    "onClick": "{{navigateTo('SearchDetails', {\n  \"id\": currentItem.id\n}, 'SAME_WINDOW');}}",
     "widthInPercentage": 0.39399401064773737,
     "displayName": "Image",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.69b0f0dd810281fbd6e34fc2c3f39344.svg",
@@ -12,7 +13,7 @@
     "hideCard": false,
     "mobileRightColumn": 63,
     "animateLoading": true,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "imageShape": "RECTANGLE",
     "dynamicBindingPathList": [
         {"key": "image"},
