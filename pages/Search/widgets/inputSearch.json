@@ -10,7 +10,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "label"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -49,7 +50,7 @@
     "widgetId": "bt8801rua8",
     "errorMessage": "",
     "minWidth": 450,
-    "label": "Search by word (any language)",
+    "label": "{{Lang.getName('inputSearch')}}",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

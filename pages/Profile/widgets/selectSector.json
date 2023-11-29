@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-    "labelText": "Select your sector",
+    "labelText": "{{Lang.getName('selectSector')}}",
     "topRow": 20.8,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
@@ -13,9 +13,10 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "labelText"}
     ],
-    "placeholderText": "Select sector",
+    "placeholderText": "",
     "isDisabled": false,
     "isRequired": true,
     "dynamicHeight": "FIXED",
@@ -34,7 +35,7 @@
     ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 27.400000000000002,
+    "bottomRow": 27.4,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,

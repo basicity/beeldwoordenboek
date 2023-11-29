@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 8.8,
-    "widgetName": "Text2",
+    "widgetName": "Organisation",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
     "searchTags": [
@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{`Organisation: ${appsmith.store.user.Organisation[0].value} (${appsmith.store.user.Sector[0].value})`}}",
+    "text": "{{`${Lang.getName('Organisation')}: ${appsmith.store.user.Organisation[0].value} (${appsmith.store.user.Sector[0].value})`}}",
     "key": "dbemjwfw8z",
     "isDeprecated": false,
     "rightColumn": 64,

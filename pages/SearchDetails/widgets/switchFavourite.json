@@ -19,7 +19,8 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "defaultSwitchState"}
+        {"key": "defaultSwitchState"},
+        {"key": "label"}
     ],
     "labelPosition": "Right",
     "isDisabled": false,
@@ -31,7 +32,7 @@
     "widgetId": "6tq08bq1bh",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
-    "label": "Store as a favourite",
+    "label": "{{Lang.getName('switchFavourite')}}",
     "defaultSwitchState": "{{GetTermById.data.Users.map(u => u.id).includes(appsmith.store.user.id)}}",
     "version": 1,
     "parentId": "0",

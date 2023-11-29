@@ -56,7 +56,7 @@
                 }
             },
             "index": 2,
-            "label": "My list",
+            "label": "{{Lang.getName('My list')}}",
             "id": "groupButton3",
             "placement": "CENTER",
             "isVisible": true,
@@ -70,7 +70,7 @@
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Profile",
+            "label": "{{Lang.getName('Profile')}}",
             "id": "groupButton1",
             "placement": "CENTER",
             "isVisible": true,
@@ -84,7 +84,7 @@
             "widgetId": "",
             "menuItems": {},
             "index": 1,
-            "label": "Search",
+            "label": "{{Lang.getName('Search')}}",
             "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
@@ -106,7 +106,10 @@
         {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButton3.buttonColor"}
+        {"key": "groupButtons.groupButton3.buttonColor"},
+        {"key": "groupButtons.groupButton1.label"},
+        {"key": "groupButtons.groupButton2.label"},
+        {"key": "groupButtons.groupButton3.label"}
     ],
     "key": "ugwgisbd4i",
     "orientation": "horizontal",

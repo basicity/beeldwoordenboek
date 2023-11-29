@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "allowSelectAll": false,
     "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
-    "labelText": "Select the categories",
+    "labelText": "{{Lang.getName('selectCategories')}}",
     "topRow": 23.400000000000002,
     "labelWidth": 5,
     "type": "MULTI_SELECT_WIDGET_V2",
@@ -14,7 +14,8 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "labelText"}
     ],
     "placeholderText": "Select categories",
     "isDisabled": false,
@@ -35,7 +36,7 @@
         "dropdown",
         "tags"
     ],
-    "bottomRow": 29.999999999999993,
+    "bottomRow": 30,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,

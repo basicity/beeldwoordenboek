@@ -10,7 +10,8 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "defaultText"}
+        {"key": "defaultText"},
+        {"key": "label"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -49,7 +50,7 @@
     "rightColumn": 64,
     "widgetId": "aqc1pga0lq",
     "minWidth": 450,
-    "label": "Your username (e-mail)",
+    "label": "{{Lang.getName('inputUsername')}}",
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",

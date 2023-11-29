@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Lang",
+    "pageId": "SearchDetails",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "data",
+        "value": "[{\n  \"id\": 25,\n  \"Name\": \"switchFavourite\",\n  \"Dutch\": \"Bewaar als favoriet\",\n  \"French\": \"Conserver comme favori\",\n  \"English\": \"Store as favourite\",\n  \"German\": \"Als Favorit speichern\",\n  \"Page\": \"SearchDetails\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "SearchDetails_Lang",
+  "deleted": false,
+  "gitSyncId": "646f5c66302bd23a55883ab7_65670efcb8e0771e7a4cdb01"
+}

@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Lang",
+    "pageId": "Profile",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "data",
+        "value": "[{\n  \"id\": 1,\n  \"Name\": \"Profile\",\n  \"Dutch\": \"Profiel\",\n  \"French\": \"Profil\",\n  \"English\": \"Profile\",\n  \"German\": \"Profil\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 2,\n  \"Name\": \"Search\",\n  \"Dutch\": \"Zoeken\",\n  \"French\": \"Chercher\",\n  \"English\": \"Search\",\n  \"German\": \"Suchen\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 3,\n  \"Name\": \"My list\",\n  \"Dutch\": \"Mijn lijst\",\n  \"French\": \"Ma liste\",\n  \"English\": \"My list\",\n  \"German\": \"Meine Liste\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 4,\n  \"Name\": \"inputUsername\",\n  \"Dutch\": \"Uw gebruikersnaam (e-mail)\",\n  \"French\": \"Votre nom d'utilisateur (e-mail)\",\n  \"English\": \"Your username (e-mail)\",\n  \"German\": \"Ihr Benutzername (E-Mail)\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 5,\n  \"Name\": \"selectLanguage\",\n  \"Dutch\": \"Selecteer uw taal\",\n  \"French\": \"S\\u00e9lectionnez votre langue\",\n  \"English\": \"Select your primary language\",\n  \"German\": \"W\\u00e4hlen Sie Ihre Hauptsprache aus\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 6,\n  \"Name\": \"selectOrganisation\",\n  \"Dutch\": \"Selecteer uw organisatie\",\n  \"French\": \"S\\u00e9lectionnez votre organisation\",\n  \"English\": \"Select your organisation\",\n  \"German\": \"W\\u00e4hlen Sie Ihre Organisation aus\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 7,\n  \"Name\": \"actionSave\",\n  \"Dutch\": \"Opslaan\",\n  \"French\": \"Sauvegarder\",\n  \"English\": \"Save\",\n  \"German\": \"Speichern\",\n  \"Page\": \"Profile\"\n}, {\n  \"id\": 14,\n  \"Name\": \"selectSector\",\n  \"Dutch\": \"Select uw sector\",\n  \"French\": \"S\\u00e9lectionnez votre secteur\",\n  \"English\": \"Select your sector\",\n  \"German\": \"W\\u00e4hlen Sie Ihre Branche aus\",\n  \"Page\": \"Profile\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Profile_Lang",
+  "deleted": false,
+  "gitSyncId": "646f5c66302bd23a55883ab7_656705f25830401447110301"
+}

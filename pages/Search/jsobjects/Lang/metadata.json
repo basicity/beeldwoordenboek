@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Lang",
+    "pageId": "Search",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "data",
+        "value": "[{\n  \"id\": 8,\n  \"Name\": \"Organisation\",\n  \"Dutch\": \"Organisatie\",\n  \"French\": \"Organisation\",\n  \"English\": \"Organisation\",\n  \"German\": \"Organisation\",\n  \"Page\": \"Search\"\n}, {\n  \"id\": 9,\n  \"Name\": \"inputSearch\",\n  \"Dutch\": \"Zoek op woord (elke taal)\",\n  \"French\": \"Recherche par mot (n'importe quelle langue)\",\n  \"English\": \"Search by word (any language)\",\n  \"German\": \"Suche nach Wort (jede Sprache)\",\n  \"Page\": \"Search\"\n}, {\n  \"id\": 10,\n  \"Name\": \"selectCategories\",\n  \"Dutch\": \"Selecteer de categorie\\u00ebn\",\n  \"French\": \"S\\u00e9lectionnez les cat\\u00e9gories\",\n  \"English\": \"Select the categories\",\n  \"German\": \"W\\u00e4hlen Sie die Kategorien aus\",\n  \"Page\": \"Search\"\n}, {\n  \"id\": 11,\n  \"Name\": \"Profile\",\n  \"Dutch\": \"Profiel\",\n  \"French\": \"Profil\",\n  \"English\": \"Profile\",\n  \"German\": \"Profil\",\n  \"Page\": \"Search\"\n}, {\n  \"id\": 12,\n  \"Name\": \"actionSearch\",\n  \"Dutch\": \"Zoeken\",\n  \"French\": \"Chercher\",\n  \"English\": \"Search\",\n  \"German\": \"Suchen\",\n  \"Page\": \"Search\"\n}, {\n  \"id\": 13,\n  \"Name\": \"My list\",\n  \"Dutch\": \"Mijn lijst\",\n  \"French\": \"Ma liste\",\n  \"English\": \"My list\",\n  \"German\": \"Meine Liste\",\n  \"Page\": \"Search\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Search_Lang",
+  "deleted": false,
+  "gitSyncId": "646f5c66302bd23a55883ab7_65670c3fdf9aa6005b10fdcf"
+}

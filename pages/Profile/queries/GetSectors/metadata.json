@@ -43,7 +43,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-05-25T13:32:56Z"
   },
   "id": "Profile_GetSectors",
   "deleted": false,

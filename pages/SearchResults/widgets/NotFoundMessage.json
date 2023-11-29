@@ -24,11 +24,12 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "text"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "No items found, search again",
+    "text": "{{Lang.getName('NotFoundMessage')}}",
     "key": "0p6fu98om8",
     "isDeprecated": false,
     "rightColumn": 64,

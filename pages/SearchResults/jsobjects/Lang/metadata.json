@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "Lang",
+    "pageId": "SearchResults",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "data",
+        "value": "[{\n  \"id\": 15,\n  \"Name\": \"Profile\",\n  \"Dutch\": \"Profiel\",\n  \"French\": \"Profil\",\n  \"English\": \"Profile\",\n  \"German\": \"Profil\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 16,\n  \"Name\": \"Search\",\n  \"Dutch\": \"Zoeken\",\n  \"French\": \"Chercher\",\n  \"English\": \"Search\",\n  \"German\": \"Suchen\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 17,\n  \"Name\": \"My list\",\n  \"Dutch\": \"Mijn lijst\",\n  \"French\": \"Ma liste\",\n  \"English\": \"My list\",\n  \"German\": \"Meine Liste\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 18,\n  \"Name\": \"NotFoundMessage\",\n  \"Dutch\": \"Geen items gevonden, zoek opnieuw\",\n  \"French\": \"Aucun \\u00e9l\\u00e9ment trouv\\u00e9, recherchez \\u00e0 nouveau\",\n  \"English\": \"No items found, search again\",\n  \"German\": \"Keine Artikel gefunden, suchen Sie erneut\",\n  \"Page\": \"SearchResults\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "SearchResults_Lang",
+  "deleted": false,
+  "gitSyncId": "646f5c66302bd23a55883ab7_65670e834c00d9706312a894"
+}

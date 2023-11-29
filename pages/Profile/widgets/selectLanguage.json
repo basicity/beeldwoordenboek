@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-    "labelText": "Select your primary language",
+    "labelText": "{{Lang.getName('selectLanguage')}}",
     "topRow": 13,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
@@ -12,10 +12,11 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "labelText"}
     ],
     "labelTooltip": "",
-    "placeholderText": "Select language",
+    "placeholderText": "",
     "isDisabled": false,
     "isRequired": true,
     "dynamicHeight": "FIXED",
