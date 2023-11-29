@@ -25,6 +25,6 @@ export default {
 			this.filteredTermsByCategory = terms;
 		}
 		
-		console.log(this.filteredTermsByCategory)
+		this.filteredTermsByCategory.length == 0 ? NotFoundMessage.setVisibility(true) : NotFoundMessage.setVisibility(false)
 	}
 }

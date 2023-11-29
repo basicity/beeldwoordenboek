@@ -65,7 +65,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "JS",
               "jsonPathKeys": [
-                "async function () {\n  const terms = [];\n  DataParser.page = 1;\n  const data = await GetTermsBySearch.run();\n  data.results.forEach(t => terms.push(t));\n  const pages = Math.ceil(data.count / 100);\n  for (DataParser.page = 2; DataParser.page <= pages; DataParser.page++) {\n    const data = await GetTermsBySearch.run();\n    data.results.forEach(t => terms.push(t));\n  }\n  if (appsmith.URL.queryParams.categories) {\n    DataParser.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));\n  } else {\n    DataParser.filteredTermsByCategory = terms;\n  }\n  console.log(DataParser.filteredTermsByCategory);\n}"
+                "async function () {\n  const terms = [];\n  DataParser.page = 1;\n  const data = await GetTermsBySearch.run();\n  data.results.forEach(t => terms.push(t));\n  const pages = Math.ceil(data.count / 100);\n  for (DataParser.page = 2; DataParser.page <= pages; DataParser.page++) {\n    const data = await GetTermsBySearch.run();\n    data.results.forEach(t => terms.push(t));\n  }\n  if (appsmith.URL.queryParams.categories) {\n    DataParser.filteredTermsByCategory = terms.filter(t => appsmith.URL.queryParams.categories.includes(t.Category[0].id));\n  } else {\n    DataParser.filteredTermsByCategory = terms;\n  }\n  DataParser.filteredTermsByCategory.length == 0 ? NotFoundMessage.setVisibility(true) : NotFoundMessage.setVisibility(false);\n}"
               ],
               "timeoutInMillisecond": 10000
             }

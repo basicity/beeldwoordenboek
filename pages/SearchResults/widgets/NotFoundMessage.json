@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 6,
-    "widgetName": "Text3",
+    "widgetName": "NotFoundMessage",
     "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "Text",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -24,8 +24,7 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "isVisible"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -37,7 +36,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "9iy95qmfj6",
     "minWidth": 450,
-    "isVisible": "{{!TermsList.isVisible}}",
+    "isVisible": "false",
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,

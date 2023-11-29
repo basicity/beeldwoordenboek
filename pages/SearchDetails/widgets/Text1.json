@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{GetTermById.data.Description_Dutch}} ({{GetTermById.data[`Description_${appsmith.store.user.InterfaceLanguage.value}`]}})",
+    "text": "{{\nGetTermById.data.Description_Dutch != '' ? GetTermById.data.Description_Dutch + ' - ' +  GetTermById.data[`Description_${appsmith.store.user.InterfaceLanguage.value}`] : ''\n\n}}\n",
     "key": "kak59pwt5e",
     "isDeprecated": false,
     "rightColumn": 64,
