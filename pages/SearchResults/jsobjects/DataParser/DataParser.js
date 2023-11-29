@@ -24,5 +24,7 @@ export default {
 		}else{
 			this.filteredTermsByCategory = terms;
 		}
+		
+		console.log(this.filteredTermsByCategory)
 	}
 }

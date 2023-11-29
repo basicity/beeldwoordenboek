@@ -5,7 +5,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 5.2,
+    "topRow": 10.4,
     "pageSize": 10,
     "onPageChange": "{{GetTermsBySearch.run()}}",
     "type": "LIST_WIDGET_V2",
@@ -20,7 +20,8 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "listData"},
-        {"key": "totalRecordsCount"}
+        {"key": "totalRecordsCount"},
+        {"key": "isVisible"}
     ],
     "leftColumn": 0,
     "serverSidePagination": false,
@@ -75,7 +76,7 @@
     "flexVerticalAlignment": "start",
     "itemBackgroundColor": "#FFFFFF",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
+    "isVisible": "{{DataParser.filteredTermsByCategory.length > 0}}",
     "totalRecordsCount": "{{DataParser.filteredTermsByCategory.length}}",
     "tags": [
         "Suggested",
@@ -98,8 +99,9 @@
     "triggeredItemView": "{{{}}}",
     "widgetName": "TermsList",
     "listData": "{{DataParser.filteredTermsByCategory}}",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "List",
-    "bottomRow": 241.2,
+    "bottomRow": 246.4,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 64,
