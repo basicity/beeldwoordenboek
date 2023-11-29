@@ -8,8 +8,12 @@
     "archivedActions": [],
     "variables": [
       {
+        "name": "state",
+        "value": "''"
+      },
+      {
         "name": "data",
-        "value": "[{\n  \"id\": 15,\n  \"Name\": \"Profile\",\n  \"Dutch\": \"Profiel\",\n  \"French\": \"Profil\",\n  \"English\": \"Profile\",\n  \"German\": \"Profil\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 16,\n  \"Name\": \"Search\",\n  \"Dutch\": \"Zoeken\",\n  \"French\": \"Chercher\",\n  \"English\": \"Search\",\n  \"German\": \"Suchen\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 17,\n  \"Name\": \"My list\",\n  \"Dutch\": \"Mijn lijst\",\n  \"French\": \"Ma liste\",\n  \"English\": \"My list\",\n  \"German\": \"Meine Liste\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 18,\n  \"Name\": \"NotFoundMessage\",\n  \"Dutch\": \"Geen items gevonden, zoek opnieuw\",\n  \"French\": \"Aucun \\u00e9l\\u00e9ment trouv\\u00e9, recherchez \\u00e0 nouveau\",\n  \"English\": \"No items found, search again\",\n  \"German\": \"Keine Artikel gefunden, suchen Sie erneut\",\n  \"Page\": \"SearchResults\"\n}]"
+        "value": "[{\n  \"id\": 15,\n  \"Name\": \"Profile\",\n  \"Dutch\": \"Profiel\",\n  \"French\": \"Profil\",\n  \"English\": \"Profile\",\n  \"German\": \"Profil\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 16,\n  \"Name\": \"Search\",\n  \"Dutch\": \"Zoeken\",\n  \"French\": \"Chercher\",\n  \"English\": \"Search\",\n  \"German\": \"Suchen\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 17,\n  \"Name\": \"My list\",\n  \"Dutch\": \"Mijn lijst\",\n  \"French\": \"Ma liste\",\n  \"English\": \"My list\",\n  \"German\": \"Meine Liste\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 18,\n  \"Name\": \"StatusMessage\",\n  \"Dutch\": \"Bezig met het ophalen van woorden, even geduld\",\n  \"French\": \"Occup\\u00e9 \\u00e0 r\\u00e9cup\\u00e9rer des mots, soyez patient s'il vous pla\\u00eet\",\n  \"English\": \"Busy retrieving words, please be patient\",\n  \"German\": \"Ich bin damit besch\\u00e4ftigt, W\\u00f6rter abzurufen, bitte haben Sie etwas Geduld\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 26,\n  \"Name\": \"StatusMessageCompleteEmpty\",\n  \"Dutch\": \"Geen woorden gevonden, zoek opnieuw\",\n  \"French\": \"Aucun mot trouv\\u00e9, veuillez rechercher \\u00e0 nouveau\",\n  \"English\": \"No words found, please search again\",\n  \"German\": \"Keine W\\u00f6rter gefunden, bitte suchen Sie erneut\",\n  \"Page\": \"SearchResults\"\n}, {\n  \"id\": 27,\n  \"Name\": \"StatusMessageCompleteResult\",\n  \"Dutch\": \"woorden gevonden\",\n  \"French\": \"mots ont \\u00e9t\\u00e9 trouv\\u00e9s\",\n  \"English\": \"words found\",\n  \"German\": \"w\\u00f6rter gefunden\",\n  \"Page\": \"SearchResults\"\n}]"
       }
     ],
     "userPermissions": []

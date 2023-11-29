@@ -32,7 +32,7 @@
     "isDisabled": "{{ selectCategories.selectedOptionValues.length == 0}}",
     "key": "exnp6dk80w",
     "isDeprecated": false,
-    "rightColumn": 7.1842843779232926,
+    "rightColumn": 7.211267605633803,
     "isDefaultClickDisabled": true,
     "iconName": "search",
     "widgetId": "m5x26oha7z",
