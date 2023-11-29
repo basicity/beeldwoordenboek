@@ -53,6 +53,24 @@ export default {
 			"English": "My list",
 			"German": "Meine Liste",
 			"Page": "Search"
+		},
+		{
+			"id": 28,
+			"Name": "checkExact",
+			"Dutch": "Enkel zoeken naar exact hetzelfde woord",
+			"French": "Recherchez uniquement exactement le m\u00eame mot",
+			"English": "Only search for the exact same word",
+			"German": "Suchen Sie nur nach genau demselben Wort",
+			"Page": "Search"
+		},
+				{
+			"id": 29,
+			"Name": "Search",
+			"Dutch": "Zoeken",
+			"French": "Chercher",
+			"English": "Search",
+			"German": "Suchen",
+			"Page": "Search"
 		}
 	]
 	,
