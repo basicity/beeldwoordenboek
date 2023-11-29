@@ -1,7 +1,7 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
-    "widthInPercentage": 0.9858030168589175,
+    "widthInPercentage": 0.9850885368126747,
     "isCanvas": true,
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.daebf68875b6c8e909e9e8ac8bee0c02.svg",
     "topRow": 0,
@@ -19,7 +19,7 @@
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 230,
+        "bottomRow": 580,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -52,20 +52,20 @@
         "mobileLeftColumn": 0,
         "maxDynamicHeight": 9000,
         "minDynamicHeight": 4,
-        "flexLayers": [{"children": [
-            {
-                "id": "x5p916gncy",
-                "align": "start"
-            },
-            {
+        "flexLayers": [
+            {"children": [{
                 "id": "li96pxlkz6",
                 "align": "start"
-            },
-            {
+            }]},
+            {"children": [{
+                "id": "x5p916gncy",
+                "align": "start"
+            }]},
+            {"children": [{
                 "id": "3ov3pj0lq3",
                 "align": "start"
-            }
-        ]}]
+            }]}
+        ]
     }],
     "flexVerticalAlignment": "stretch",
     "dynamicHeight": "FIXED",
@@ -87,7 +87,7 @@
         "parent",
         "group"
     ],
-    "bottomRow": 23,
+    "bottomRow": 58,
     "dragDisabled": true,
     "hideCard": false,
     "shouldScrollContents": false,

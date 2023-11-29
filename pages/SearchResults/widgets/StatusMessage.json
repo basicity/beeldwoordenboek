@@ -1,6 +1,6 @@
 {
-    "mobileBottomRow": 6,
-    "borderColor": "#231f20",
+    "mobileBottomRow": 8.8,
+    "borderColor": "",
     "widgetName": "StatusMessage",
     "dynamicPropertyPathList": [],
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
@@ -11,7 +11,7 @@
         "paragraph",
         "label"
     ],
-    "bottomRow": 9.4,
+    "bottomRow": 9.2,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
         {"key": "text"}
     ],
     "shouldTruncate": false,
-    "borderWidth": "1",
+    "borderWidth": "",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{\nLang.state == 'StatusMessageCompleteResult' ? DataParser.filteredTermsByCategory.length + ' ' + Lang.getName(Lang.state) : Lang.getName(Lang.state)\n}}",
     "key": "0p6fu98om8",
@@ -51,7 +51,7 @@
     ],
     "isLoading": false,
     "renderMode": "CANVAS",
-    "mobileTopRow": 2,
+    "mobileTopRow": 4.8,
     "responsiveBehavior": "fill",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,

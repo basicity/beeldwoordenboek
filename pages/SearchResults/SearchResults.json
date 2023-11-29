@@ -6,10 +6,10 @@
       {
         "viewMode": false,
         "dsl": {
-          "mobileBottomRow": 2988,
+          "mobileBottomRow": 3084,
           "widgetName": "MainContainer",
           "topRow": 0,
-          "bottomRow": 2546,
+          "bottomRow": 2516,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
@@ -42,6 +42,14 @@
               "children": [
                 {
                   "id": "9iy95qmfj6",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "8ed3gbcue7",
                   "align": "start"
                 }
               ]
