@@ -36,7 +36,7 @@
         },
         {
           "key": "page",
-          "value": "{{DataParser.page}}"
+          "value": "1"
         }
       ],
       "bodyFormData": [],
@@ -63,9 +63,6 @@
       },
       {
         "key": "queryParameters[2].value"
-      },
-      {
-        "key": "queryParameters[3].value"
       }
     ],
     "isValid": true,
@@ -73,7 +70,6 @@
     "messages": [],
     "jsonPathKeys": [
       "!appsmith.URL.queryParams.keyword ? '' : appsmith.URL.queryParams.keyword",
-      "DataParser.page",
       "appsmith.store.user.Sector[0].ids.database_table_176525"
     ],
     "userSetOnLoad": true,

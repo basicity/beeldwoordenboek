@@ -85,17 +85,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Search_GetCategories",
-              "name": "GetCategories",
+              "id": "Search_CheckLogin.CheckUsers",
+              "name": "CheckLogin.CheckUsers",
+              "collectionId": "Search_CheckLogin",
               "confirmBeforeExecute": false,
-              "pluginType": "API",
+              "pluginType": "JS",
               "jsonPathKeys": [
-                "appsmith.store.user.Sector[0].value"
+                "function () {\n  if (!appsmith.store.user) {\n    navigateTo('Profile');\n  }\n}"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Search_DataParser.getCategories",
               "name": "DataParser.getCategories",
@@ -104,6 +103,18 @@
               "pluginType": "JS",
               "jsonPathKeys": [
                 "() => {\n  return GetCategories.data.results.map(item => {\n    const obj = Object.assign({}, item);\n    obj['label'] = item[`Category_${appsmith.store.user ? appsmith.store.user.InterfaceLanguage.value : 'English'}`];\n    obj['value'] = item.id;\n    return obj;\n  });\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Search_GetCategories",
+              "name": "GetCategories",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.user.Sector[0].value"
               ],
               "timeoutInMillisecond": 10000
             }

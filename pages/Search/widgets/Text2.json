@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{`Organisation: ${appsmith.store.user.Company[0].value} (${appsmith.store.user.Sector[0].value})`}}",
+    "text": "{{`Organisation: ${appsmith.store.user.Organisation[0].value} (${appsmith.store.user.Sector[0].value})`}}",
     "key": "dbemjwfw8z",
     "isDeprecated": false,
     "rightColumn": 64,

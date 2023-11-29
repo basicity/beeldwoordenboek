@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "CheckLogin",
+    "pageId": "Search",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Search_CheckLogin",
+  "deleted": false,
+  "gitSyncId": "646f5c66302bd23a55883ab7_6566efbe8902d11c573db793"
+}
